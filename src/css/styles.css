@@ -86,6 +86,20 @@ a.claimButtonText {
 	font-weight: 400 !important;
 }
 
+.power{
+	font-size: 19px;
+    line-height: 24px;
+    font-kerning: 10px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #FFFFFF !important;
+}
+
+.influence{
+	font-size: 19px;
+    line-height: 24px;
+    color: #FFFFFF !important;
+}
+
 .stickers {
 	background-color: #EFEBE4;
 	overflow: hidden;
@@ -501,7 +515,7 @@ a.claimButtonText {
 	.stickerImage{
 		position:absolute !important; 
 		bottom:0 !important; 
-		max-height:350px !important;
+		max-height:400px !important;
 	}
 
 	.gutterPadding {

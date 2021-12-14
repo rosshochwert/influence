@@ -1,0 +1,22 @@
+{
+  "name": "Influence",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "uuid": "^8.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosshochwert/influence.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosshochwert/influence/issues"
+  },
+  "homepage": "https://github.com/rosshochwert/influence#readme"
+}
