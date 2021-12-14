@@ -1,0 +1,113 @@
+.candidateHeroText{
+	font-family: 'Patua One', cursive;
+	color: #FFFFFF;
+	font-size: 42px;
+	line-height: 48px;
+	padding-top: 124px;
+}
+
+.greenBullets {
+	list-style: none; /* Remove default bullets */
+}
+.greenBullets::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #4AA6A4; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1.25em; /* Also needed for space (tweak if needed) */
+}
+
+.candidateTitle{
+	font-family: 'Patua One';
+	color: #293B74;
+	font-size: 24px;
+	line-height: 30px;
+/*	height: 100px;
+*/	padding-top: 24px;
+	padding-bottom: 24px;	
+}
+
+.candidateText {
+	color: #293B74;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+	.dumbImage{
+		width: 	100%;
+		/*height: 360px;*/
+		background-color: grey;
+	}
+
+.safeText{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 19px;
+	line-height: 24px;
+	color: #293B74;
+	padding-bottom: 15px;
+	text-decoration: underline;
+	text-decoration-color:  #293B74;
+	text-transform: uppercase;
+}
+
+.safeText:hover {
+	color: #007bff !important;
+}
+
+@media (max-width: 767px){
+	.podium {
+		width: 100%;
+	}
+
+	.rightGutterMobile{
+		padding-right: 22px;
+	}
+
+	.howWeDoIt {
+		min-height: 720px;
+	}
+
+}
+
+
+@media (min-width: 768px){
+	.conditionalHeight80{
+		height: 80px;
+	}
+	.mobilepadding {
+		height: 80px;
+	}
+	
+	.podium {
+		width: 100%;
+		/*padding-top: 112px;*/
+
+		position: absolute !important;
+    	bottom: 0 !important;
+	}
+
+	.podiumPadding{
+		padding-bottom: 75px;
+	}
+}
+
+@media (min-width: 992px) {
+	.podium {
+		width: 400px;
+		/*padding-top: 112px;*/
+		margin-left: 20%;
+		position: absolute !important;
+    	bottom: 0 !important;
+	}
+
+	.podiumText {
+		min-height: 576px !important;
+	}
+
+	.podiumPadding{
+		padding-bottom: 50px;
+	}
+
+}

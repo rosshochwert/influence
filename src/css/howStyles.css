@@ -1,0 +1,105 @@
+.weightImage{
+	background-image: url('../images/Scale@2x.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat; 
+	background-color: #4AA6A4;
+	background-position: bottom;
+}
+
+.scale{
+	position: absolute !important;
+    bottom: 0 !important;
+    width:100%;
+}
+
+.headline{
+	min-height: 340px;
+}
+
+.chartImage{
+	max-height: 336px;
+}
+
+.greenBullets {
+	list-style: none; /* Remove default bullets */
+}
+.greenBullets::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #4AA6A4; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1.25em; /* Also needed for space (tweak if needed) */
+}
+
+@media (max-width: 767px) {
+	.conditionalHeight {
+		min-height: 440px;
+		padding-top: 100px;
+	}
+	
+	.quickRecap{
+		padding-top: 48px;
+	}
+
+	.chartImage {
+		height: 100%;
+	}
+	.moreResources{
+		padding: 20px;
+	}
+
+	.weightImage{
+	background-image: none;
+		}
+}
+
+
+@media (min-width:  400px){
+	.chartImage {
+		height: 100%;
+	}
+
+	.resourcePadding{
+		padding-left:11px;
+		padding-right:11px;
+	}
+}
+
+
+@media (min-width: 769px) {
+	.conditionalScaleImage{
+		display: 	none;
+	}
+	.chartImage {
+		margin-top: 111px;
+		height: 100%;	
+	}
+
+	.podium{
+		width: 90%;
+		margin-left: 0 !important
+	}
+
+	.resourcePadding{
+		padding-left: 44px;
+		padding-right: 44px;
+		max-width: 500px;
+	}
+}
+
+.register {
+	min-height: 776px;
+}
+
+.moreResources {
+	padding-top: 55px;
+	color: #FFF;
+	font-size: 24px;
+	line-height: 40px;
+	font-family: 'Patua One', cursive;
+}
+
+.whiteFont {
+	color:#FFF;
+}

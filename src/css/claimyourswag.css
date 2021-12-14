@@ -1,0 +1,101 @@
+input[type="file"] {
+    display: none;
+}
+
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #355ABC;
+    color: #FFFFFF;
+	  font-family: "Open Sans";
+	  font-size: 12px;
+	  font-weight: bold;
+	  letter-spacing: 0;
+	  line-height: 24px;
+	  text-align: center;
+	 margin-bottom: 0 !important;
+}
+
+.uploadBox {
+	border: 1px solid #DBDBDB;
+  	border-radius: 5px;
+  	padding-top: 16px;
+  	padding-bottom: 16px;
+  	padding-left: 12px;
+  	margin-top: 15px;
+}
+
+.messagePadding {
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.file{
+	color: #293B74;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding-left: 15px;
+}
+
+.backgroundHero {
+	background-image: url('../images/Hero@2x.jpg');
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-position: center left;
+	background-color: 	#293B74;
+	margin: 0;
+}
+
+.claimButtonText:hover {
+    border-bottom: none !important;
+}
+
+.box{
+	background-color: 	green;
+	width: 	100px;
+	height: 100px;
+	top:50px;
+}
+
+.notthistime{
+	margin-top: 16px !important;
+	border: 1px solid #ED6F4E !important;
+  	border-radius: 28px !important;
+  	background-color: white;
+}
+
+.small{
+	width: 	60%;
+}
+
+.sorryText{
+	color: #848484 !important;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+}
+
+.sorry{
+	border-radius: 28px !important;
+  	background-color: #E6E6E6;
+  	border-color: 	#E6E6E6 !important;
+}
+
+.myhero{
+	margin-top: 24px !important;
+  line-height: 40px !important;
+}
+
+.claimTitle {
+	color: #FFFFFF;
+  font-family: "Patua One";
+  font-size: 42px;
+  letter-spacing: 0;
+  line-height: 48px;
+}

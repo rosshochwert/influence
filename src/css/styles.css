@@ -1,0 +1,685 @@
+a:hover {
+	color: #FFF !important;
+	text-decoration: none !important;
+}
+
+button:focus{
+	background-color: #DA4C27;
+}
+
+
+button.second:focus{
+	background-color: #ED6F4E;
+	color: #FFF !important;
+}
+
+button.second {
+	color: #ED6F4E;
+	line-height: 40px !important;
+}
+
+button:focus {
+	outline-color: #E6E6E6 !important;
+}
+
+
+
+
+a.claimButtonText {
+	color: #FFF;
+}
+
+.linkOver {
+	text-decoration: underline !important;
+	color: #FFF;
+}
+
+.linkOver:hover {
+	color: #007bff;
+}
+
+.candidateLink {
+	color: #293B74 !important;
+	text-decoration: underline !important;
+}
+
+.candidateLink:hover {
+	color: #007bff !important;
+}
+/*a.claimButtonText:hover {
+	color: #FFF;
+	text-decoration: underline !important;
+}*/
+
+.header {
+	background-color: #1A1B32 !important;
+	min-height:112px;
+}
+
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.newIcon{
+	background-image: url('../images/Hamburger Menu@2x.png') !important;
+}
+
+.hider{
+	border: none !important;
+}
+
+.headerFont{
+	font-size: 19px;
+	line-height: 24px;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	color: #FFFFFF !important;
+}
+
+.noUnder:hover{
+	text-decoration: none !important;
+}
+
+.heroFont{
+	font-family: 'Patua One', cursive;
+	color: #FFFFFF;
+	font-weight: 400 !important;
+}
+
+.stickers {
+	background-color: #EFEBE4;
+	overflow: hidden;
+}
+
+.howWeDoItBack{
+	background-color: #293B74;
+}
+
+.jumboStarter {
+	height:584px;
+}
+
+.titleText{
+		padding-top: 111px;
+		font-size: 32px;
+		line-height: 40px;
+		color: #293B74;
+		font-family: 'Patua One', cursive;
+}
+
+.howTitleText{
+	padding-top: 111px;
+		font-size: 32px;
+		line-height: 40px;
+		color: #FFFFFF;
+		font-family: 'Patua One', cursive;
+}
+
+.bullets{
+	margin-bottom: 10px;
+}
+
+
+.jumboImage{
+	background-image: url('../images/02_Homepage_Small.jpg');
+	background-size: 100% auto;
+	background-repeat: no-repeat; 
+	background-color: #293B74;
+	background-position: bottom left;
+/*	background-size: 100% 100%;
+*/}
+
+.candidateImage{
+	background-image: url('../images/06_Homepage.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat; 
+	background-color: #FFFFFF;
+	background-position: bottom center;
+}
+.blankButton {
+		background-color: #919191;
+		width: 242px;
+		height: 64px;
+		text-align: center;
+		color: #111111;
+		font-size: 16px;
+		line-height: 64px;
+		font-weight: bold;
+}
+
+.exploreCandidates {
+	/*min-height: 352px;*/
+}
+
+.about {
+	padding-top: 39px;
+}
+
+.donate {
+	padding-top: 9px;
+}
+
+.footerText{
+	font-size: 19px;
+	color: #FFFFFF;
+	line-height: 24px;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	text-align: center;
+}
+
+.supportEmail{
+	color: #FFFFFF;
+		font-size: 16px;
+		line-height: 24px;
+		font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+		background-color: #1A1B32
+
+}
+
+.descriptionText{
+		padding-top: 25px;
+		padding-right: 15px;
+		color: #293B74;
+		font-size: 16px;
+		line-height: 24px;
+		font-family: 'Open Sans', sans-serif;
+}
+
+.howDescriptionText{
+	padding-top: 25px;
+	padding-right: 15px;
+		color: #FFFFFF;
+		font-size: 16px;
+		line-height: 24px;
+		font-family: 'Open Sans', sans-serif;
+}
+
+.claimButton {
+		margin-top: 40px;
+		border-radius: 28px;
+		border: none; 
+		background-color: #ED6F4E;
+		width: 238px;
+		height: 56px;
+		text-align: center;
+		color: #FFFFFF;
+		font-size: 20px;
+		line-height: 56px;
+		font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+
+.whyCareDescription {
+		padding-top: 25px !important;
+		color: #293B74;
+		font-size: 16px;
+		line-height: 24px;
+		font-family: 'Open Sans', sans-serif;
+}
+
+	.discalimer{
+		border: 1px solid #FFFFFF;
+		padding: 10px;
+		color: #FFFFFF;
+		text-align: center;
+		font-size: 12px;
+		font-family: 'Open Sans', sans-serif;
+		line-height: 24px;
+		margin-left: 18px;
+		margin-right: 18px;
+	}
+
+	.mobileImagePadding{
+		height: 111px;
+	}
+
+	.mobileImagePadding48 {
+		height: 111px;
+	}
+
+@media (max-width: 767px) {
+	.infoBox {
+	padding-top: 40px;
+}
+	.candidateBottomPadding{
+		height: 40px
+	}
+	.titleText{
+		padding-top: 64px;
+		font-size: 32px;
+		line-height: 40px;
+		color: #293B74;
+		font-family: 'Patua One', cursive;
+	}
+
+	.howTitleText{
+	padding-top: 64px;
+		font-size: 32px;
+		line-height: 40px;
+		color: #FFFFFF;
+		font-family: 'Patua One', cursive;
+}
+
+.rossOtherClass {
+	padding-top: 64px;
+}
+
+	.mobileImagePadding{
+		height: 64px;
+	}
+	.mobileImagePadding48 {
+		height: 48px;
+	}
+
+	.leftMobileGutter{
+		padding-left: 22px;
+	}
+	.navbar-collapse {
+		background-color: #355ABC;
+	}
+
+	.navbar {
+		padding: 0 !important;
+	}
+
+	.navbar-nav {
+		text-align: center;
+	}
+
+	.mobileLast{
+		margin-bottom: 20px;
+	}
+
+	.stackMe{
+		flex-direction: column !important;
+	}
+
+	.learnMorePadding {
+		height: 64px
+	}
+
+	.explorePadding{
+		/*margin-top:10% !important;*/
+		margin-top:71px !important;
+	}
+
+	.mobilepadding{
+		height: 64px;
+	}
+
+	.stickerImage{
+		padding-left: 30px !important; 
+	}
+
+	.conditionalBackground{
+		background-image: url('../images/02_Homepage_Small.png');
+		background-size: auto 80%;
+		background-repeat: no-repeat; 
+		background-color: #293B74;
+		background-position: 0% 100%;
+	}
+	.toggler {
+		 margin-right: 22px;
+	}
+
+	.toggler:focus{
+		background-color: #1A1B32 !important;
+	}
+
+	.testImage{
+		width: 100%;
+		height: 350px;
+		padding-top: 55px;
+		padding-right: 21px;
+		padding-left: 21px;
+		padding-bottom: 67px;
+	}
+
+	.mobileGutter{
+		padding-left:22px !important;
+		padding-right:22px !important;
+	}
+
+	.detailRow{
+		min-height: 500px;
+	}
+	.detailRowMobileHeight {
+		height: 424px;
+}
+
+	.jumboText {
+		padding-left: 50% !important;
+		padding-right: 5px !important;
+		padding-bottom: 200px !important;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		flex-direction: column;
+		font-size: 38px;
+		line-height: 42px;
+		color: #FFFFFF;
+	}
+
+	.leftGutter {
+		padding-left:22px !important;
+	}
+
+	.rightGutter {
+		padding-right: 22px !important
+	}
+
+	.exploreButtonPadding{
+		padding-left: 22px !important;
+	}
+
+	.insetImageMobile{
+		padding-top: 24px;
+		padding-right: 21px;
+		padding-left: 21px;
+	}
+
+	.mobileHeight{
+		height: 350px;
+	}
+
+	.insetImageContainerMobile{
+		height:336px;
+	}
+
+	.whyCare{
+		
+	}
+
+	.howWeDoIt {
+		min-height: 808px;
+	}
+
+	.candidates {
+		min-height: 256px;
+		padding-right: 	10px;
+	}
+
+	.imgClass {
+		padding-top: 64px;
+		padding-right: 20px;
+		padding-left: 20px;
+		max-height: 600px;
+		display:block;
+    	margin:auto;
+	}
+
+	.imgClass2 {
+		max-height: 400px;
+		display:block;
+    	margin:auto;
+	}
+
+	.insetImageRight{
+		padding-top: 55px;
+		padding-bottom: 67px;
+	}
+
+
+}
+
+@media (max-width: 767px) {
+	.conditionalBackground{
+		background-image: url('../images/02_Homepage_v2.png');
+		background-size: auto 80%;
+		background-repeat: no-repeat; 
+		background-color: #293B74;
+		background-position: bottom left;
+	}
+}
+
+@media (max-width: 500px) {
+	.conditionalBackground{
+		background-image: url('../images/02_Homepage_v2.png');
+		background-size: auto 80%;
+		background-repeat: no-repeat; 
+		background-color: #293B74;
+		background-position: 85% 100%;
+	}
+}
+
+@media (min-width: 768px) {
+
+	.rightNew {
+		padding-right:32px 
+	}
+
+	.leftNew {
+		padding-left:32px 
+	}
+
+	.kamalaPadding{
+		margin-bottom: 110px;
+	}
+	.desktopHidden{
+		display: none;
+	}
+
+	.infoBox {
+	padding-top: 111px;
+}
+
+	.candidateBottomPadding{
+		height: 111px
+	}
+
+	.nonMobilePadding{
+		padding-top: 48px;
+	}
+	.headerFont:hover {
+    	border-bottom: 1px solid #fff !important;
+	}
+
+	./*claimButtonText:hover*/
+
+	.headerFont:after, .claimButtonText:after {
+    	transition: width 0.3s ease;
+    	width: 100%;
+	}
+
+	.headerFont{
+		border-top: 4px solid #1A1B32 !important;
+		border-bottom: 4px solid #1A1B32 !important;
+		padding-top: 0.1rem !important;
+		padding-bottom: 0.1rem !important;
+	}
+
+	.stackMe{
+		flex-direction: row !important;
+	}
+	.learnMorePadding {
+		height: 120px
+	}
+	.stickerImage{
+		position:absolute !important; 
+		bottom:0 !important; 
+		max-height:350px !important;
+	}
+
+	.gutterPadding {
+		padding-left:22px !important;
+		padding-right:22px !important;
+	}
+
+	.navPadding{
+		padding-left:40px; 
+	}
+
+	.imgClass2 {
+		width: 400px;
+		padding-top: 112px;
+		padding-left: 100px;
+	}
+
+	.footer {
+	min-height: 186px;
+	background-color: #1A1B32
+}
+
+	.insetPadding {
+		padding-left: 100px;
+		padding-right: 135px;
+		padding-top: 104px;
+	}
+
+	.detailRow {
+		min-height: 400px;
+}
+
+	.jumboText{
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		flex-direction: column;
+		font-weight: bold;
+		padding-right: 13px !important;
+		font-size: 50px;
+		line-height: 56px;
+}
+	.leftGutter {
+		padding-left:22px !important;
+	}
+
+	.rightGutter {
+		padding-right: 22px !important
+	}
+
+	.exploreButtonPadding{
+		padding-left: 22px !important;
+	}
+
+	.insetImageLeft{
+		padding-top: 96px;
+		padding-right: 104px;
+		padding-left: 22px;
+	}
+
+	.insetImageRight{
+		/*padding-top: 96px;
+		padding-left: 100px;
+		padding-right: 22px;*/
+	}
+
+	.whyCare{
+		min-height: 688px;
+	}
+
+	.howWeDoIt {
+		background-color: #D8D8D8;
+	}
+
+	.candidates {
+		min-height: 256px;
+	}
+
+}
+
+@media(min-width: 767px) {
+		.explorePadding{
+		padding-top: 71px !important;
+	}
+}
+
+@media (min-width: 992px) {
+
+	.eatTheRich{
+		background-image: url('../images/03_Homepage.png');
+		background-size: auto 100%;
+		background-repeat: no-repeat; 
+	/*background-color: #293B74;*/
+	background-position: bottom center;
+	}
+
+	.fakeColumn{
+		min-width: 	600px;
+	}
+
+	.stickerImage{
+		padding-left: 70px;
+	}
+
+	.gutterPadding {
+		padding-left:130px !important;
+		padding-right: 130px !important;
+	}
+
+	.explorePadding{
+		padding-left:115px !important;
+		padding-right: 115px !important;
+		padding-top: 71px !important;
+	}
+
+	.detailRow {
+		min-height: 400px;
+}
+
+	.candidates {
+	min-height: 344px;
+}
+
+	.jumboText{
+/*		padding-right: 15% !important;
+*/		max-width: 675px;
+	}
+
+	.howWeDoIt {
+		background-color: #293B74;
+	}
+
+	.leftGutter {
+		padding-left:115px !important;
+	}
+
+	.rightGutter {
+		padding-right: 115px !important
+	}
+
+	.stickerPadding {
+		padding-right: 115px !important;
+	}
+
+	.insetImageLeft{
+		padding-top: 104px;
+		padding-right: 100px;
+		padding-left: 0px;
+	}
+
+	.insetImageRight{
+		/*padding-top: 104px;
+		padding-left: 100px;
+		padding-right: 135px;
+*/	}
+
+	.imgClass {
+		max-height: 600px;
+		padding-left: 115px;
+	}
+
+	.imgClass2 {
+		width: 400px;
+		padding-top: 112px;
+		margin-left: 20%;
+	}
+
+	.whyCare{
+		min-height: 712px;
+	}
+
+	.whyCarePadding{
+		padding-right: 15% !important;
+	}
+
+	.whyCareTitle {
+		padding-top: 111px !important;
+	}
+
+
+}
