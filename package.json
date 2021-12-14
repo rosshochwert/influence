@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/rosshochwert/influence/issues"
   },
-  "homepage": "https://github.com/rosshochwert/influence#readme"
+  "homepage": "https://github.com/rosshochwert/influence#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }
